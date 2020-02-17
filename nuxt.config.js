@@ -12,7 +12,9 @@ module.exports = {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     script: [
-      { src: 'https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.4.2/Sortable.min.js' }
+      {
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.4.2/Sortable.min.js'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -48,6 +50,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    vendor: ['sortablejs'],
     /*
     ** You can extend webpack config here
     */
