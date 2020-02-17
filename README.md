@@ -1,6 +1,6 @@
 # nuxt-trello
+kéo thả thêm list, card
 
-> My well-made Nuxt.js project
 
 ## Build Setup
 
